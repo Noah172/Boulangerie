@@ -1,9 +1,8 @@
 package stocks;
 
-public class Ingrédients extends Recette {
+public abstract class Ingrédients extends Recette {
 	private String name;
 	int quantite;
-
 
 	public Ingrédients(String name, int quantite) {
 		super();
@@ -23,6 +22,7 @@ public class Ingrédients extends Recette {
 	public void annoncequantite(Ingrédients ingredient) {
 		System.out.println("Il reste "+ingredient.quantite+" grammes de "+ingredient.name+".");
 	}
+	public abstract double prixpargramme();
 
 
 

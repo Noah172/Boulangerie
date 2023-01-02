@@ -4,7 +4,14 @@ public class Beurre extends Ingrédients {
 
 	public Beurre(String name, int quantite) {
 		super(name, quantite);
-		// TODO Auto-generated constructor stub
+
 	}
+
+	@Override
+	public double prixpargramme() {
+		return 0.01132;
+	}
+
+
 
 }

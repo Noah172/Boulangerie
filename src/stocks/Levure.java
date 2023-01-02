@@ -4,7 +4,11 @@ public class Levure extends Ingrédients {
 
 	public Levure(String name, int nombre) {
 		super(name, nombre);
-		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public double prixpargramme() {
+		return 0.0108;
 	}
 
 }
