@@ -42,6 +42,6 @@ public class PrixRecette {
 		System.out.println("Le prix d'un pain est actuellement d'environ "+PrixPain(farine, levure,sel)+" euros");
 		System.out.println("Le prix d'une chocolatine est actuellement d'environ "+PrixChocolatine(beurre, chocolat, sucre)+" euros");
 		System.out.println("Le prix d'un croissant est actuellement d'environ "+PrixCroissant(farine, levure, sel, beurre, sucre)+" euros");
-		System.out.println(beneficesParMois(10000, 1000, 1000));
+		System.out.println(beneficesParMois(10500, 1000, 1000));
 	}
 }

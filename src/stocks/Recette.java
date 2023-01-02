@@ -39,5 +39,6 @@ public class Recette {
 			System.out.println("Si vous faites "+nombredefois+" Croissants, il n'y aura pas assez d'ingrédients. Veuiller changer le nombre de pain ou acheter de nouveaux ingrédients.");
 		}		
 	}
+	
 }
 

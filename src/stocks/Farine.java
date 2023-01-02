@@ -4,7 +4,7 @@ public class Farine extends Ingrédients {
 
 	public Farine(String name, int quantite) {
 		super(name, quantite);
-		// TODO Auto-generated constructor stub
+
 	}
 
 	@Override
